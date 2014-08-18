@@ -1,1 +1,4 @@
 !*.zip
+!*.war
+!*.jar
+!*.class
