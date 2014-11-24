@@ -19,7 +19,7 @@
                    <properties> 
                       <property>
                          <name>ConnectionURL</name>
-                          <value>siebel.tcpip.none.none://192.168.1.122:2321/ENT/EAIObjMgr_enu</value>
+                          <value>siebel.tcpip.none.none://192.168.59.103:2321/SBA_81/EAIObjMgr_enu</value>
                       </property> 
                    </properties>
                 </connection-properties> 

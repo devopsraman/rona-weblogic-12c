@@ -15,7 +15,7 @@ siebelCrmPassword='SADMIN'
 
 resourceID="type=<eis>, application=SiebelResourceAdapter, module=SiebelResourceAdapter, eis=Siebel CRM, destinationId=eis/siebel/SiebelResourceAdapterConnFactory"
 
-startServer(jvmArgs='-XX:MaxPermSize=256m, -Xmx512m  ', username=wlsUsername, password=wlsPassword)
+startServer(jvmArgs='-XX:MaxPermSize=256m, -Xmx512m  ', username=wlsUsername, password=wlsPassword, domainDir="%s/user_projects/domains/base_domain" % oracle_home)
 
 connect(wlsUsername, wlsPassword, 't3://127.0.0.1:7001')
 

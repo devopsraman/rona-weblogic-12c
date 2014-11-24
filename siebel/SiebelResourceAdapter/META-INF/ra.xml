@@ -12,7 +12,7 @@
     <config-property>
      <config-property-name>ConnectionURL</config-property-name>
      <config-property-type>java.lang.String</config-property-type>
-     <config-property-value>siebel.tcpip.none.none://192.168.1.122:2321/ENT/EAIObjMgr_enu</config-property-value>
+     <config-property-value>siebel.tcpip.none.none://192.168.59.103:2321/SBA_81/EAIObjMgr_enu</config-property-value>
     </config-property>
     <config-property>
      <config-property-name>SessionTokenMaxAge</config-property-name>

@@ -12,3 +12,5 @@ RUN /u01/app/oracle/middleware/wlserver/common/bin/wlst.sh -skipWLSModuleScannin
 
 USER root
 RUN rm -f /u01/app/oracle/middleware/deploy.py
+
+USER oracle
